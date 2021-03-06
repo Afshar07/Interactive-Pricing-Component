@@ -61,18 +61,22 @@ body {
     color: #858fad;
   }
   .slider {
-      width: 90%;
+    margin-top: 1rem;
+    width: 90%;
     -webkit-appearance: none;
-    height: .5rem;
+    height: 0.5rem;
     background: hsl(174, 77%, 80%);
     border-radius: 50px;
   }
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.3rem;
+    height: 2.3rem;
     background-color: hsl(174, 86%, 45%);
     border-radius: 50%;
-}
-
+    background-image: url(images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+  }
 }
