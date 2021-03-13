@@ -15,6 +15,16 @@ h2 {
   margin-bottom: 0;
 }
 
+/* Media Query for narrow phones like galaxy folr */
+@media only screen and (max-width: 306px){
+  .title h1{
+    line-height: 2rem;
+  }
+  label{
+    width: 5.5rem !important ;
+  }
+}
+
 .mcontainer {
   width: 100%;
   height: 100vh;
